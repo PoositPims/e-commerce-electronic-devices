@@ -11,7 +11,6 @@ function Navbar() {
           style={{ width: "250px", backgroundColor: "#AA2A31" }}
         />
       </div>
-      {/* <nav> */}
       <ul style={{ listStyle: "none", display: "flex" }}>
         <li className="me-5">
           <button
@@ -38,7 +37,6 @@ function Navbar() {
           </button>
         </li>
       </ul>
-      {/* </nav> */}
     </div>
   );
 }

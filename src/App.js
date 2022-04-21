@@ -2,7 +2,7 @@ import "./App.css";
 import Layout from "./layout/Layout";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import ProductDetail from "./pages/ProductDetail";
+import AllProducts from "./pages/AllProducts";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
             <Route path="/" element={<Homepage />} exact />
           </Routes>
           <Routes>
-            <Route path="/products" element={<ProductDetail />} />
+            <Route path="/all-products" element={<AllProducts />} />
           </Routes>
         </BrowserRouter>
       </Layout>

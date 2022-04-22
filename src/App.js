@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import AllProducts from "./pages/AllProducts";
+import EachProduct from "./pages/EachProduct";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/all-products" element={<AllProducts />} />
+          </Routes>
+          <Routes>
+            <Route path="/each-product" element={<EachProduct />} />
           </Routes>
         </BrowserRouter>
       </Layout>

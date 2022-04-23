@@ -1,0 +1,62 @@
+.bg {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: auto;
+}
+
+.bg .image {
+  width: 15.625rem;
+  /* background-color: #aa2a31; */
+  background-color: black;
+  padding: 15px;
+}
+.cartMenu {
+  list-style: none;
+  display: flex;
+}
+
+.liCard button {
+  background-color: #aa2a31;
+  color: white;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* iphone SE */
+/* iphone 12 pro */
+/* ipad samsung Galaxy S8+  */
+/* iphone samsung Galaxy S20 Ultra */
+
+@media screen and (min-width: 375px), (min-width: 360px), (min-width: 414px) {
+  .image {
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .liCard button {
+    margin-top: 0px;
+    font-size: 100px;
+  }
+  .bg {
+    background-color: black;
+  }
+}
+
+/* ipad air */
+@media screen and (min-width: 375px), (min-width: 360px), (min-width: 820px) {
+  .image {
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .liCard button {
+    margin-top: 0px;
+    font-size: 100px;
+  }
+  .bg {
+    background-color: black;
+  }
+}

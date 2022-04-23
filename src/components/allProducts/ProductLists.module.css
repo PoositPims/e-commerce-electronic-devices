@@ -1,0 +1,44 @@
+.productLists {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .productLists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .productLists {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 85%; */
+    margin: 0 auto;
+  }
+}
+
+/* surface pro 7 */
+@media screen and (max-width: 912px) {
+  .productLists {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 85%; */
+    margin: 0 auto;
+  }
+}
+
+/* surface pro 7 */
+/* @media screen and (max-width: 912px) {
+  .productLists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+} */

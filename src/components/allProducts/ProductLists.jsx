@@ -1,12 +1,12 @@
 import React from "react";
 import ProductItem from "./ProductItem";
 import { MOCK_DATAS } from "../../data/mock-data";
+import classes from "./ProductLists.module.css";
 
 function ProductLists() {
-  // console.log("MOCKDATAS", MOCK_DATAS);
   return (
-    <div className="d-flex flex-wrap">
-      {MOCK_DATAS?.map((product, key) => (
+    <div className={classes.productLists}>
+      {MOCK_DATAS?.map((product) => (
         <ProductItem
           key={product._id}
           _id={product._id}

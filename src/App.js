@@ -12,7 +12,6 @@ import OthersType from "./pages/OthersType";
 
 function App() {
   return (
-    // <Layout>
     <div
       className="box"
       style={{
@@ -47,7 +46,6 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
-    // </Layout>
   );
 }
 

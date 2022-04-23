@@ -1,0 +1,157 @@
+.menuType {
+  background-color: #2b2d30;
+  height: 3rem;
+  display: flex;
+}
+
+.menu,
+.menuEach {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  background-color: #2b2d30;
+  padding-top: 0.5rem;
+}
+
+.liCard {
+  list-style: none;
+  text-decoration: none;
+}
+
+.liCard button {
+  background-color: #aa2a31;
+  color: white;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* ipad iphone SE */
+/* ipad iphone XR */
+/* ipad iphone 12Pro  */
+
+@media only screen and (min-width: 375px),
+  (min-width: 360px),
+  (min-width: 390px),
+  (min-width: 414px) {
+  .menuType {
+    font-size: 12px;
+    width: 100%;
+  }
+  .menu,
+  .menuEach {
+    padding: 10px 3px 10px 0px;
+  }
+  .liCard {
+    list-style: none;
+    text-decoration: none;
+  }
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+}
+
+/* samsung Galaxy S20 ultra  */
+@media only screen and (min-width: 412px) {
+  .menuType {
+    font-size: 14px;
+    width: 100%;
+  }
+  .menu,
+  .menuEach {
+    padding: 7px 3px 10px 0px;
+  }
+
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+
+/* samsung Galaxy S8+  */
+@media only screen and (max-width: 360px) {
+  .menuType {
+    font-size: 11px;
+    width: 100%;
+  }
+  .menu,
+  .menuEach {
+    padding: 7px 3px 10px 0px;
+  }
+
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
+
+/* ipad air */
+/* ipad mini */
+@media only screen and (min-width: 820px), (min-width: 768px) {
+  .menuType {
+    font-size: 19px;
+    width: 100%;
+  }
+  .menu,
+  .menuEach {
+    padding: 4px 3px 10px 0px;
+  }
+
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+  }
+}
+
+/* surface pro 7 */
+@media only screen and (min-width: 912px) {
+  .menuType {
+    font-size: 25px;
+    width: 100%;
+    height: 3.5rem;
+  }
+  .menu,
+  .menuEach {
+    padding: 4px 3px 10px 0px;
+  }
+
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+  }
+}
+
+/* galaxy fold */
+@media only screen and (max-width: 280px) {
+  .menuType {
+    font-size: 5px;
+    width: 100%;
+  }
+  .menu,
+  .menuEach {
+    padding: 4px 0px 10px 0px;
+  }
+
+  .liCard button {
+    background-color: #aa2a31;
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}

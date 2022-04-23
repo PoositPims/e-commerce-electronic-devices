@@ -1,0 +1,14 @@
+.pic img {
+  /* width: 30rem;
+  height: 30rem; */
+  width: 65%;
+  height: 65%;
+}
+
+/* iphone se */
+/* iphone XR */
+@media screen and (max-width: 375px), (max-width: 414px), (max-width: 540px) {
+  .pic img {
+    width: 100%;
+  }
+}

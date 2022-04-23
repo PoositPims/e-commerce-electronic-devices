@@ -1,51 +1,38 @@
 import React from "react";
+import classes from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    // <div style={{ backgroundColor: "black" }}>
     <div
-      className="d-flex justify-content-between"
-      style={{ backgroundColor: "black", width: "auto" }}
-      // style={{ width: "90rem", margin: "0 auto" }}
+      className={classes.bg}
+      // className="d-flex justify-content-between"
+      // style={{ backgroundColor: "", width: "auto" }}
     >
       <div>
         <a href="/">
           <img
             src="logo.png"
             alt="logo"
-            className="p-3 mt-2 mb-2"
-            style={{ width: "15.625rem", backgroundColor: "#AA2A31" }}
+            // className="p-3 mt-2 mb-2"
+            className={classes.image}
+            // style={{ width: "15.625rem", backgroundColor: "#AA2A31" }}
           />
         </a>
       </div>
-      <ul style={{ listStyle: "none", display: "flex" }}>
-        <li className="me-5">
+      {/* <ul className={classes.cartMenu}>
+        <li
+          // className="me-5"
+          className={classes.liCard}
+        >
           <button
-            className="btn rounded-pill text-white px-4 py-2 mt-3"
-            style={{ backgroundColor: "#AA2A31" }}
+            className="btn rounded-pill "
+            // style={{ backgroundColor: "#AA2A31" }}
           >
-            menu1
+            <i class="bi bi-cart3" />
           </button>
         </li>
-        {/* <li className="me-5  ">
-          <button
-            className="btn rounded-pill text-white px-4 py-2 mt-3"
-            style={{ backgroundColor: "#AA2A31" }}
-          >
-            menu2
-          </button>
-        </li>
-        <li className="me-5">
-          <button
-            className="btn rounded-pill text-white px-4 py-2 mt-3"
-            style={{ backgroundColor: "#AA2A31" }}
-          >
-            menu3
-          </button>
-        </li> */}
-      </ul>
+      </ul> */}
     </div>
-    // </div>
   );
 }
 

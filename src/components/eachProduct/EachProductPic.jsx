@@ -1,14 +1,10 @@
 import React from "react";
+import classes from "./EachProductPic.module.css";
 
 function EachProductPic({ image }) {
-  console.log("image", image);
   return (
-    <div>
-      <img
-        src={image}
-        alt="productImg"
-        style={{ width: "30rem", height: "30rem" }}
-      />
+    <div className={classes.pic}>
+      <img src={image} alt="productImg" />
     </div>
   );
 }

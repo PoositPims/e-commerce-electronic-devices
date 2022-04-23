@@ -1,0 +1,16 @@
+.name {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.description,
+.price {
+  /* width: 50rem; */
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.button {
+  align-self: center;
+}

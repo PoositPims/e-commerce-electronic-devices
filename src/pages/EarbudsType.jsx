@@ -1,12 +1,16 @@
 import React from "react";
 import ProductItem from "../components/allProducts/ProductItem";
 import { MOCK_DATAS } from "../data/mock-data";
+import classes from "./InchargeType.module.css";
 
 function EarbudsType() {
   const earbuds = MOCK_DATAS.filter((product) => product.type === "earbuds");
 
   return (
-    <div className="d-flex flex-wrap">
+    <div
+      // className="d-flex flex-wrap"
+      className={classes.incharge}
+    >
       {earbuds.map((product) => (
         <ProductItem
           key={product._id}

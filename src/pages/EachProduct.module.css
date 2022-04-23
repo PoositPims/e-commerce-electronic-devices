@@ -1,0 +1,33 @@
+.eachProduct {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.pic {
+  width: 50%;
+}
+
+.detail {
+  width: 40%;
+}
+
+/* iphone se */
+/* iphone XR */
+@media screen and (max-width: 375px), (max-width: 414px), (max-width: 540px) {
+  .eachProduct {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .pic {
+    width: 100%;
+  }
+
+  .detail {
+    width: 100%;
+  }
+}

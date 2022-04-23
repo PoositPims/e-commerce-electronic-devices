@@ -1,16 +1,17 @@
 import React from "react";
+import classes from "./EachProductDetail.module.css";
 
 function EachProductDetail({ name, description, price }) {
   return (
-    <div className="d-flex flex-column justify-content-around">
-      <div className="fs-3" style={{ color: "black" }}>
+    <div className="d-flex flex-column justify-content-around ">
+      <div className={classes.name}>
         <b>{name}</b>
       </div>
-      <div style={{ width: "50rem", color: "black" }}>{description}</div>
-      <div style={{ width: "50rem", color: "black" }}>
+      <div className={classes.description}>{description}</div>
+      <div className={classes.price}>
         <b>{price}</b>
       </div>
-      <div className="align-self-center">
+      <div className={classes.button}>
         <button
           className="btn rounded-pill text-white"
           style={{ backgroundColor: "#AA2A31" }}

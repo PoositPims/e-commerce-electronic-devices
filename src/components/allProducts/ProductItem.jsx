@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Card from "../ui/Card";
+import classes from "./ProductItem.module.css";
 
 function ProductItem({ _id, image, name, price, description }) {
   return (
-    <div key={_id}>
+    <div key={_id} className={classes.allProduct}>
       <NavLink
         to={{
           pathname: "/each-product",
@@ -13,24 +14,9 @@ function ProductItem({ _id, image, name, price, description }) {
         state={{ _id, image, name, price, description }}
       >
         <Card>
-          <img
-            src={image}
-            alt="ProductPic"
-            // style={{ width: "18.75rem", height: "18.75rem" }}
-            style={{ width: "15rem", height: "15rem" }}
-          />
-          <div
-            className="d-flex justify-content-center mt-2 text-decoration-none"
-            style={{ color: "black" }}
-          >
-            {name}
-          </div>
-          <div
-            className="d-flex justify-content-center mt-2 text-decoration-none"
-            style={{ color: "black" }}
-          >
-            {price}
-          </div>
+          <img src={image} alt="ProductPic" className={classes.imgCard} />
+          <div className={classes.nameCard}>{name}</div>
+          <div className={classes.priceCard}>{price}</div>
         </Card>
       </NavLink>
     </div>

@@ -1,12 +1,13 @@
 import React from "react";
-import ProductItem from "./ProductItem";
-import { MOCK_DATAS } from "../../data/mock-data";
+import ProductItem from "../components/allProducts/ProductItem";
+import { MOCK_DATAS } from "../data/mock-data";
 
-function ProductLists() {
-  // console.log("MOCKDATAS", MOCK_DATAS);
+function EarbudsType() {
+  const earbuds = MOCK_DATAS.filter((product) => product.type === "earbuds");
+
   return (
     <div className="d-flex flex-wrap">
-      {MOCK_DATAS?.map((product, key) => (
+      {earbuds.map((product) => (
         <ProductItem
           key={product._id}
           _id={product._id}
@@ -20,4 +21,4 @@ function ProductLists() {
   );
 }
 
-export default ProductLists;
+export default EarbudsType;

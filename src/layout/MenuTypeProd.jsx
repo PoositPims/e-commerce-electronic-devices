@@ -2,24 +2,49 @@ import React from "react";
 
 function MenuTypeProd() {
   return (
-    <div className="mt-3">
+    <div
+      className="mt-2 mb-2"
+      style={{ backgroundColor: "black", height: "2.5rem" }}
+    >
       <ul
-        style={{ listStyle: "none" }}
         className="d-flex justify-content-center"
+        style={{ listStyle: "none" }}
       >
         <li className="me-4">
-          <a href="/all-products" className="text-decoration-none text-dark">
+          <a
+            href="/all-products"
+            className="text-decoration-none"
+            style={{ color: "#e1e6ed" }}
+          >
             <b>All products</b>
           </a>
         </li>
         <li className="me-4">
-          <b>Incharge</b>
+          <a
+            href="/incharge"
+            className="text-decoration-none"
+            style={{ color: "#e1e6ed" }}
+          >
+            <b>Incharge</b>
+          </a>
         </li>
         <li className="me-4">
-          <b>Earbuds</b>
+          <a
+            href="/earbuds"
+            className="text-decoration-none"
+            style={{ color: "#e1e6ed" }}
+          >
+            <b>Earbuds</b>
+          </a>
         </li>
         <li className="me-4">
-          <b>MagSafe</b>
+          <a
+            href="/others"
+            className="text-decoration-none"
+            style={{ color: "#e1e6ed" }}
+          >
+            <b>others</b>
+          </a>
         </li>
       </ul>
     </div>

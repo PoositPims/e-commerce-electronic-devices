@@ -15,11 +15,22 @@ function ProductItem({ _id, image, name, price, description }) {
         <Card>
           <img
             src={image}
-            alt="Earbuds"
-            style={{ width: "300px", height: "300px" }}
+            alt="ProductPic"
+            // style={{ width: "18.75rem", height: "18.75rem" }}
+            style={{ width: "15rem", height: "15rem" }}
           />
-          <div className="d-flex justify-content-center mt-2">{name}</div>
-          <div className="d-flex justify-content-center mt-2">{price}</div>
+          <div
+            className="d-flex justify-content-center mt-2 text-decoration-none"
+            style={{ color: "black" }}
+          >
+            {name}
+          </div>
+          <div
+            className="d-flex justify-content-center mt-2 text-decoration-none"
+            style={{ color: "black" }}
+          >
+            {price}
+          </div>
         </Card>
       </NavLink>
     </div>

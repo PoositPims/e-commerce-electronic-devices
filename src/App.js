@@ -9,6 +9,7 @@ import Navbar from "./layout/Navbar";
 import InchargeType from "./pages/InchargeType";
 import EarbudsType from "./pages/EarbudsType";
 import OthersType from "./pages/OthersType";
+import Favorites from "./pages/Favorites";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/others" element={<OthersType />} />
+        </Routes>
+        <Routes>
+          <Route path="/favorite" element={<Favorites />} />
         </Routes>
       </BrowserRouter>
     </div>

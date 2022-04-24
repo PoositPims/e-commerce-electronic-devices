@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import React, { useContext } from "react";
 import classes from "./MenuTypeProd.module.css";
+import FavoritesContext from "../context/favorite-context";
 
 function MenuTypeProd() {
-  const [menuBar, setMenuBar] = useState(false);
+  // const history = useNavigate();
+  // const [menuBar, setMenuBar] = useState(false);
+  const favoritesCtx = useContext(FavoritesContext);
+  console.log("favoritesCtx...........", favoritesCtx);
 
   return (
     <div className={classes.menuType}>
@@ -45,17 +50,19 @@ function MenuTypeProd() {
             </a>
           </li>
         </div>
-        {/* <li className="me-4" onClick={() => setMenuBar(!menuBar)}>
-          <b>
-            <i class="bi bi-list" style={{ color: "white" }}></i>
-          </b>
-        </li> */}
       </ul>
-      <li className={classes.liCard}>
-        <button className="btn rounded-pill ">
-          <i class="bi bi-cart3" />
-        </button>
-      </li>
+      <NavLink
+        // href="/favorite"
+        to={{ pathname: "favorite" }}
+        // key={_id}
+        // state={{ favoritesCtx }}
+      >
+        {/* <li className={classes.liCard}>
+          <button className="btn rounded-pill">
+            <i class="bi bi-cart3" />
+          </button>
+        </li> */}
+      </NavLink>
     </div>
   );
 }

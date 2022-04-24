@@ -1,0 +1,7 @@
+.homepage {
+  /* margin-top: 3rem; */
+  width: 90%;
+  object-fit: cover;
+  margin: 0 auto;
+  object-position: right;
+}

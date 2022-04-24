@@ -1,0 +1,18 @@
+.expBox {
+  width: 13rem;
+  height: 12rem;
+  border-radius: 20px;
+  background-color: #aa2a31;
+  text-align: center;
+}
+
+.description {
+  width: 13rem;
+  text-align: center;
+  padding-top: 0.1rem;
+}
+
+.expBox i {
+  font-size: 100px;
+  margin: 0 auto;
+}

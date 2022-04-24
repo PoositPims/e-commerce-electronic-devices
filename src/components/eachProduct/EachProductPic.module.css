@@ -1,6 +1,7 @@
 .pic img {
   /* width: 30rem;
   height: 30rem; */
+  border-radius: 20px;
   width: 65%;
   height: 65%;
 }

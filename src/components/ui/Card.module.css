@@ -1,3 +1,9 @@
 .card {
-  width: calc(60% + 0.8vmin);
+  /* width: calc(60% + 0.8vmin); */
+  text-decoration: none;
+  list-style: none;
+  border-radius: 10px;
+  /* border-radius: 20px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  /* margin-left: 100px; */
 }

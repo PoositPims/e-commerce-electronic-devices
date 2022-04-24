@@ -1,14 +1,21 @@
+/* .productDetail {
+  background-color: red;
+} */
 .name {
-  color: black;
+  /* color: black; */
+  /* background-color: red; */
   font-size: 30px;
   margin-bottom: 2rem;
 }
 
+.price {
+  font-size: 30px;
+}
+
 .description,
 .price {
-  /* width: 50rem; */
-  color: black;
   margin-bottom: 2rem;
+  /* text */
 }
 
 .button {

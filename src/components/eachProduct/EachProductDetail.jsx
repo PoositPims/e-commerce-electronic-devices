@@ -3,7 +3,10 @@ import classes from "./EachProductDetail.module.css";
 
 function EachProductDetail({ name, description, price }) {
   return (
-    <div className="d-flex flex-column justify-content-around ">
+    <div
+      // className="d-flex flex-column justify-content-around "
+      className={classes.productDetail}
+    >
       <div className={classes.name}>
         <b>{name}</b>
       </div>

@@ -1,7 +1,10 @@
 div {
-  outline: 1px dashed lime;
+  /* outline: 1px dashed lime; */
   font-family: "Prompt", sans-serif;
-  background-color: #fbf9f1;
+  /* background-color: #fbf9f1; */
+  /* background-color: #2b2d30; */
+  background-color: black;
+
   /* background-color: #000000; */
   color: #e1e6ed;
   /* height: auto; */

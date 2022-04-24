@@ -1,15 +1,22 @@
 .allProduct {
   margin: 1.5rem;
+  text-decoration: none;
+  list-style: none;
 }
 
 .imgCard {
-  width: 13rem;
-  height: 14rem;
+  /* width: 13rem;
+  height: 14rem; */
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20px;
 }
 
 .nameCard,
 .priceCard {
-  color: black;
+  /* color: black; */
+  /* color: #aa2a31; */
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
 }

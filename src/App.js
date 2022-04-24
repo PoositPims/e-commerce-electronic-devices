@@ -13,15 +13,10 @@ import OthersType from "./pages/OthersType";
 function App() {
   return (
     <div
-      className="box"
-      style={{
-        // backgroundColor: "green",
-        outline: "1px dashed lime",
-        // width: "90rem",
-        // width: "auto",
-        // width: "100%",
-        // margin: "0 auto",
-      }}
+    // className="box"
+    // style={{
+    //   outline: "1px dashed lime",
+    // }}
     >
       <BrowserRouter>
         <Navbar />

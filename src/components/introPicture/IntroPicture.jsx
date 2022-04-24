@@ -1,12 +1,21 @@
 import React from "react";
+import classes from "./IntroPicture.module.css";
 
 function IntroPicture() {
   return (
-    <div
-    // style={{ width: "50rem" }}
-    >
-      <img className="container d-flex " src="Banner.png" alt="introPic" />
-    </div>
+    <>
+      <div className={classes.articlePic}>
+        <img src="Banner.png" alt="" />
+        <div className={classes.word}>
+          <h2
+          // style={{ marginBottom: "27px" }}
+          >
+            <strong>Your best experiences</strong>
+          </h2>
+          <p>is our jobs.</p>
+        </div>
+      </div>
+    </>
   );
 }
 

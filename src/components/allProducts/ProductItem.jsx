@@ -12,11 +12,16 @@ function ProductItem({ _id, image, name, price, description }) {
         }}
         key={_id}
         state={{ _id, image, name, price, description }}
+        style={{ textDecoration: "none" }}
       >
         <Card>
           <img src={image} alt="ProductPic" className={classes.imgCard} />
-          <div className={classes.nameCard}>{name}</div>
-          <div className={classes.priceCard}>{price}</div>
+          <div className={classes.nameCard}>
+            <b>{name}</b>
+          </div>
+          <div className={classes.priceCard}>
+            <b>{price}</b>
+          </div>
         </Card>
       </NavLink>
     </div>

@@ -13,12 +13,7 @@ import Favorites from "./pages/Favorites";
 
 function App() {
   return (
-    <div
-    // className="box"
-    // style={{
-    //   outline: "1px dashed lime",
-    // }}
-    >
+    <div>
       <BrowserRouter>
         <Navbar />
         <MenuTypeProd />

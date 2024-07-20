@@ -12,7 +12,6 @@ function Favorites() {
     content = <p>You did not push your product to cart yet</p>;
   } else {
     content = <ProductLists product={favoritesCtx.favorites} />;
-    // content = <Favorite product={favoritesCtx.favorites} />;
   }
 
   return (

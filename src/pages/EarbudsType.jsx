@@ -7,10 +7,7 @@ function EarbudsType() {
   const earbuds = MOCK_DATAS.filter((product) => product.type === "earbuds");
 
   return (
-    <div
-      // className="d-flex flex-wrap"
-      className={classes.incharge}
-    >
+    <div className={classes.incharge}>
       {earbuds.map((product) => (
         <ProductItem
           key={product._id}

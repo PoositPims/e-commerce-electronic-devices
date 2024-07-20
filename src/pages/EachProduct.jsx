@@ -7,7 +7,6 @@ import classes from "./EachProduct.module.css";
 function EachProduct() {
   const location = useLocation();
   const product = location.state;
-  // console.log("product", product);
 
   return (
     <div className={classes.eachProduct}>

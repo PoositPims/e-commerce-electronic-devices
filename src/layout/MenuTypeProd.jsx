@@ -4,8 +4,6 @@ import classes from "./MenuTypeProd.module.css";
 import FavoritesContext from "../context/favorite-context";
 
 function MenuTypeProd() {
-  // const history = useNavigate();
-  // const [menuBar, setMenuBar] = useState(false);
   const favoritesCtx = useContext(FavoritesContext);
   console.log("favoritesCtx...........", favoritesCtx);
 
@@ -51,18 +49,7 @@ function MenuTypeProd() {
           </li>
         </div>
       </ul>
-      <NavLink
-        // href="/favorite"
-        to={{ pathname: "favorite" }}
-        // key={_id}
-        // state={{ favoritesCtx }}
-      >
-        {/* <li className={classes.liCard}>
-          <button className="btn rounded-pill">
-            <i class="bi bi-cart3" />
-          </button>
-        </li> */}
-      </NavLink>
+      <NavLink to={{ pathname: "favorite" }}></NavLink>
     </div>
   );
 }

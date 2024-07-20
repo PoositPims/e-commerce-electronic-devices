@@ -21,10 +21,7 @@ function EachProductDetail({ name, description, price, _id, image }) {
   }
 
   return (
-    <div
-      // className="d-flex flex-column justify-content-around "
-      className={classes.productDetail}
-    >
+    <div className={classes.productDetail}>
       <div className={classes.name}>
         <b>{name}</b>
       </div>

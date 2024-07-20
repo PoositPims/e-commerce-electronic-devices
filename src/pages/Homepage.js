@@ -5,12 +5,7 @@ import classes from "./Homepage.module.css";
 
 function Homepage() {
   return (
-    <div
-      // className="mt-3"
-      className={classes.homepage}
-      // style={{ width: "90rem", margin: "0 auto" }}
-      // style={{ width: "50rem" }}
-    >
+    <div className={classes.homepage}>
       <IntroPicture />
       <Experience />
     </div>

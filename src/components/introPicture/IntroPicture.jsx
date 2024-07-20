@@ -7,9 +7,7 @@ function IntroPicture() {
       <div className={classes.articlePic}>
         <img src="Banner.png" alt="" />
         <div className={classes.word}>
-          <h2
-          // style={{ marginBottom: "27px" }}
-          >
+          <h2>
             <strong>Your best experiences</strong>
           </h2>
           <p>is our jobs.</p>
